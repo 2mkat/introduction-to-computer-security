@@ -103,7 +103,3 @@
 ### Справочные
 * [Matt Bishop. Computer Security: Art and Sciense](http://nob.cs.ucdavis.edu/book/book-aands/)
 * [А.В. Лукацкий. Моделирование угроз] (http://www.slideshare.net/lukatsky/ss-13257562)
-
-### Фундаментальные
-* Г. Бэйтсон. Разум и природа. Неизбежное единство
-* М.К. Мамардашвилли. Психологическая топология пути
