@@ -87,10 +87,21 @@
 * [Подкаст Noise Security Bit. Об образовании в области ИБ] (http://noisebit.podster.fm/6)
 * [Подкаст Noise Security Bit. О практической безопасности] (http://noisebit.podster.fm/3)
 * [В.Кочетков. Как разработать защищенное веб-приложение и не сойти при этом с ума] (http://my.webinar.ru/record/140584/)
+* [В. Кочетков. Информационная угрозология, уязвимоведение и рисководство] (http://habrahabr.ru/post/129386/)
+* [А. Масалович. Конкурентная разведка в Интернет] (http://www.youtube.com/watch?v=HcwASJCk16k)
+* [Н.А. Гайдамакин. Теоретические основы компьютерной безопасности.] (http://elar.urfu.ru/bitstream/10995/1778/5/1335332_schoolbook.pdf) Глава 1.
+* [А. Гостев. Особенности национальной охоты] (https://www.youtube.com/watch?v=Canud1V4Fww)
+* [В. Дубровин. Ошибки использования безопасных протоколов и их эксплуатация] (http://live.digitaloctober.ru/embed/2996#time1400752650)
 
 ### Рекомендуемые
 [Matt Bishop. Introduction to Computer Security](http://nob.cs.ucdavis.edu/book/book-intro/)
+С.П. Расторгуев. Информационная война. Проблемы и модели. Экзистенциальная математика
+К. Касперски. Техника сетевых атак.
 
 ### Справочные
 [Matt Bishop. Computer Security: Art and Sciense](http://nob.cs.ucdavis.edu/book/book-aands/)
+[А.В. Лукацкий. Моделирование угроз] (http://www.slideshare.net/lukatsky/ss-13257562)
 
+### Фундаментальные
+* Г. Бэйтсон. Разум и природа. Неизбежное единство.
+* М.К. Мамардашвилли. Психологическая топология пути.
