@@ -94,14 +94,14 @@
 * [В. Дубровин. Ошибки использования безопасных протоколов и их эксплуатация] (http://live.digitaloctober.ru/embed/2996#time1400752650)
 
 ### Рекомендуемые
-[Matt Bishop. Introduction to Computer Security](http://nob.cs.ucdavis.edu/book/book-intro/)
-С.П. Расторгуев. Информационная война. Проблемы и модели. Экзистенциальная математика
-К. Касперски. Техника сетевых атак.
+*[Matt Bishop. Introduction to Computer Security](http://nob.cs.ucdavis.edu/book/book-intro/)
+*С.П. Расторгуев. Информационная война. Проблемы и модели. Экзистенциальная математика
+*К. Касперски. Техника сетевых атак
 
 ### Справочные
-[Matt Bishop. Computer Security: Art and Sciense](http://nob.cs.ucdavis.edu/book/book-aands/)
-[А.В. Лукацкий. Моделирование угроз] (http://www.slideshare.net/lukatsky/ss-13257562)
+*[Matt Bishop. Computer Security: Art and Sciense](http://nob.cs.ucdavis.edu/book/book-aands/)
+*[А.В. Лукацкий. Моделирование угроз] (http://www.slideshare.net/lukatsky/ss-13257562)
 
 ### Фундаментальные
-* Г. Бэйтсон. Разум и природа. Неизбежное единство.
-* М.К. Мамардашвилли. Психологическая топология пути.
+* Г. Бэйтсон. Разум и природа. Неизбежное единство
+* М.К. Мамардашвилли. Психологическая топология пути
