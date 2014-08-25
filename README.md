@@ -80,12 +80,12 @@
     * время доступа к файлу
     * файловую систему /proc
 1. Проанализировать и сравнить защищенность конфигураций SSL/TLS любых 10 популярных веб-ресурсов с помощью [сканера ssllabs.com] (http://www.ssllabs.com)
-1. Написать простейшее приложение, содержащее какую-либо уязвимость, необнаруживаемую сканером безопасности. Например, веб-приложение с уязвимостью к атаке SQL-injection, необнаруживаемой сканером Sqlmap.
+1. Написать простейшее приложение, содержащее какую-либо уязвимость, необнаруживаемую сканером безопасности. Например, веб-приложение с уязвимостью к атаке [SQL-injection](https://capec.mitre.org/data/definitions/66.html), необнаруживаемой сканером [Sqlmap](http://sqlmap.org/).
 
 ## Материалы
 
 ### Обязательные
-* [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/). Chapter 1 
+* [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/) Chapter 1 
 * [Подкаст Noise Security Bit. Об образовании в области ИБ] (http://noisebit.podster.fm/6)
 * [Подкаст Noise Security Bit. О практической безопасности] (http://noisebit.podster.fm/3)
 * [В.Кочетков. Как разработать защищенное веб-приложение и не сойти при этом с ума] (http://my.webinar.ru/record/140584/)
