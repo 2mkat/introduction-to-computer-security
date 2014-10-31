@@ -25,13 +25,13 @@
     * защищенность
 1. Моделирование угроз
     * Основные модели угроз 
-        * модель CIA
-        * модель STRIDE
+        * модель [CIA] (http://en.wikipedia.org/wiki/Information_security)
+        * модель [STRIDE] (http://msdn.microsoft.com/en-us/library/ee823899(v=cs.20).aspx)
         * модель МакКамбера
         * модель Паркера
    * Риск-ориентированный подход к компьютерной безопасности
-        * модель DREAD
-        * модель CVSS
+        * модель [DREAD] (http://msdn.microsoft.com/en-us/library/ff648644.aspx)
+        * модель [CVSS] (http://nvd.nist.gov/cvss.cfm?calculator&version=2)
     * Построение модели угроз в виде диаграммы потока данных
 1. Уязвимости
     * формальное определение уязвимости
