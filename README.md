@@ -75,8 +75,8 @@
     * PKI
 1. Анализ защищенности
     * тестирование
-    * технологии SAST, DAST и IAST
-    * тестирование на проникновение
+    * технологии [SAST](http://sgordey.blogspot.ru/2013/08/blog-post_13.html), [DAST] (http://sgordey.blogspot.ru/2013/08/0day-11.html) и [IAST](http://www.youtube.com/watch?v=sUNsPBb6NPA)
+    * [тестирование на проникновение](http://www.youtube.com/watch?v=X0ilODBepU8&feature=youtu.be)
 1. Практические аспекты
     * ответственное разглашение и программы Bug Bounty
     * соревнования по защите информации CTF
