@@ -38,56 +38,56 @@
 1. Основные этапы разработки защищенных ИС 
 1. Моделирование угроз
     * Основные модели угроз 
-      * модель [CIA] (http://en.wikipedia.org/wiki/Information_security)
-      * модель [STRIDE] (http://msdn.microsoft.com/en-us/library/ee823899(v=cs.20).aspx)
-      * модель МакКамбера
-      * модель Паркера
+        * модель [CIA] (http://en.wikipedia.org/wiki/Information_security)
+        * модель [STRIDE] (http://msdn.microsoft.com/en-us/library/ee823899(v=cs.20).aspx)
+        * модель МакКамбера
+        * модель Паркера
    * Риск-ориентированный подход к компьютерной безопасности
-      * модель [DREAD] (http://msdn.microsoft.com/en-us/library/ff648644.aspx)
-      * модель [CVSS] (http://nvd.nist.gov/cvss.cfm?calculator&version=2)
-    * Построение модели угроз в виде диаграммы потока данных
+        * модель [DREAD] (http://msdn.microsoft.com/en-us/library/ff648644.aspx)
+        * модель [CVSS] (http://nvd.nist.gov/cvss.cfm?calculator&version=2)
+   * Построение модели угроз в виде диаграммы потока данных
 1. Управление доступом
-    * Идентификация, аутентификация и авторизация
-    * Аутентификация
-      * парольная защита
-      * двухфакторная аутентификация
-      * технологии AAA и SSO
-    * Политики управление доступом и информационными потоками
-        * дискреционное управление доступом (DAC)
-        * мандатное управление доступом ([LBAC] (http://en.wikipedia.org/wiki/Lattice-based_access_control), [MLS] (http://en.wikipedia.org/wiki/Multilevel_security), [TE] (http://en.wikipedia.org/wiki/Type_enforcement))
-        * ролевое управление доступом (RBAC)
-        * атрибутное управление доступом (ABAC)
-        * элементы формального моделирования
-      * Классические модели безопасности
-        * модель Харрисона-Руззо-Ульмана
-        * модель Take-Grant
-        * модель [Белла-ЛаПадулы] (http://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model)
-    * Скрытые каналы
-      * определение, назначание и виды скрытых каналов
-      * общая схема функционирования скрытых каналов
-      * примеры скрытых каналов по памяти и по времени
+   * Идентификация, аутентификация и авторизация
+   * Аутентификация
+       * парольная защита
+       * двухфакторная аутентификация
+       * технологии AAA и SSO
+   * Политики управление доступом и информационными потоками
+       * дискреционное управление доступом (DAC)
+       * мандатное управление доступом ([LBAC] (http://en.wikipedia.org/wiki/Lattice-based_access_control), [MLS] (http://en.wikipedia.org/wiki/Multilevel_security), [TE] (http://en.wikipedia.org/wiki/Type_enforcement))
+       * ролевое управление доступом (RBAC)
+       * атрибутное управление доступом (ABAC)
+       * элементы формального моделирования
+   * Классические модели безопасности
+       * модель Харрисона-Руззо-Ульмана
+       * модель Take-Grant
+       * модель [Белла-ЛаПадулы] (http://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model)
+   * Скрытые каналы
+       * определение, назначание и виды скрытых каналов
+       * общая схема функционирования скрытых каналов
+       * примеры скрытых каналов по памяти и по времени
 1. Защищенность сетей
-    * Основные принципы функционирования компьютерных сетей
-    * [Одна секунда из жизни пакета](http://habrahabr.ru/post/191954/)
-    * Классические сетевые атаки
-      * TCP-hijacking
-      * [DoS-](http://en.wikipedia.org/wiki/Denial-of-service_attack), [DDoS-](http://www.cisco.com/web/about/security/intelligence/guide_ddos_defense.html), [DRDoS-](http://blog.cloudflare.com/deep-inside-a-dns-amplification-ddos-attack/)атаки
-      * ARP-spoofing
-    * Классические сетевые механизмы защиты 
-      * Межсетевые экраны
-      * Системы обнаружения вторжений
-      * Виртуальные частные сети (VPN)
+   * Основные принципы функционирования компьютерных сетей
+   * [Одна секунда из жизни пакета](http://habrahabr.ru/post/191954/)
+   * Классические сетевые атаки
+       * TCP-hijacking
+       * [DoS-](http://en.wikipedia.org/wiki/Denial-of-service_attack), [DDoS-](http://www.cisco.com/web/about/security/intelligence/guide_ddos_defense.html), [DRDoS-](http://blog.cloudflare.com/deep-inside-a-dns-amplification-ddos-attack/)атаки
+       * ARP-spoofing
+   * Классические сетевые механизмы защиты 
+       * Межсетевые экраны
+       * Системы обнаружения вторжений
+       * Виртуальные частные сети (VPN)
 1. Элементы криптографических протоколов
-    * Виды протоколов 
-    * Протоколы SSL/TLS
-    * PKI
+   * Виды протоколов 
+   * Протоколы SSL/TLS
+   * PKI
 1. Анализ защищенности
-    * тестирование
-    * технологии [SAST](http://sgordey.blogspot.ru/2013/08/blog-post_13.html), [DAST] (http://sgordey.blogspot.ru/2013/08/0day-11.html) и [IAST](http://www.youtube.com/watch?v=sUNsPBb6NPA)
-    * [тестирование на проникновение](http://www.youtube.com/watch?v=X0ilODBepU8&feature=youtu.be)
+   * тестирование
+   * технологии [SAST](http://sgordey.blogspot.ru/2013/08/blog-post_13.html), [DAST] (http://sgordey.blogspot.ru/2013/08/0day-11.html) и [IAST](http://www.youtube.com/watch?v=sUNsPBb6NPA)
+   * [тестирование на проникновение](http://www.youtube.com/watch?v=X0ilODBepU8&feature=youtu.be)
 1. Практические аспекты
-    * ответственное разглашение и программы Bug Bounty
-    * соревнования по защите информации CTF
+   * ответственное разглашение и программы Bug Bounty
+   * соревнования по защите информации CTF
 1. Дружелюбная безопасность (Usable security)
    * Модели взаимодействия
    * [NEAT](http://blogs.msdn.com/b/sdl/archive/2011/05/04/adding-usable-security-to-the-sdl.aspx)
