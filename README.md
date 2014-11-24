@@ -38,26 +38,27 @@
 1. Основные этапы разработки защищенных ИС 
 1. Моделирование угроз
     * Основные модели угроз 
-        * модель [CIA] (http://en.wikipedia.org/wiki/Information_security)
-        * модель [STRIDE] (http://msdn.microsoft.com/en-us/library/ee823899(v=cs.20).aspx)
-        * модель МакКамбера
-        * модель Паркера
+      * модель [CIA] (http://en.wikipedia.org/wiki/Information_security)
+      * модель [STRIDE] (http://msdn.microsoft.com/en-us/library/ee823899(v=cs.20).aspx)
+      * модель МакКамбера
+      * модель Паркера
    * Риск-ориентированный подход к компьютерной безопасности
-        * модель [DREAD] (http://msdn.microsoft.com/en-us/library/ff648644.aspx)
-        * модель [CVSS] (http://nvd.nist.gov/cvss.cfm?calculator&version=2)
+      * модель [DREAD] (http://msdn.microsoft.com/en-us/library/ff648644.aspx)
+      * модель [CVSS] (http://nvd.nist.gov/cvss.cfm?calculator&version=2)
     * Построение модели угроз в виде диаграммы потока данных
 1. Управление доступом
     * Идентификация, аутентификация и авторизация
     * Аутентификация
-        * парольная защита
-        * двухфакторная аутентификация
-        * технологии AAA и SSO
+      * парольная защита
+      * двухфакторная аутентификация
+      * технологии AAA и SSO
     * Политики управление доступом и информационными потоками
         * дискреционное управление доступом (DAC)
         * мандатное управление доступом ([LBAC] (http://en.wikipedia.org/wiki/Lattice-based_access_control), [MLS] (http://en.wikipedia.org/wiki/Multilevel_security), [TE] (http://en.wikipedia.org/wiki/Type_enforcement))
         * ролевое управление доступом (RBAC)
         * атрибутное управление доступом (ABAC)
         * элементы формального моделирования
+      * Классические модели безопасности
         * модель Харрисона-Руззо-Ульмана
         * модель Take-Grant
         * модель [Белла-ЛаПадулы] (http://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model)
