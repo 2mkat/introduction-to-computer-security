@@ -118,7 +118,8 @@
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/) Chapter 1 
 * [Подкаст Noise Security Bit. Об образовании в области ИБ](http://noisebit.podster.fm/6)
 * [Подкаст Noise Security Bit. О практической безопасности](http://noisebit.podster.fm/3)
-* [В.Кочетков. Как разработать защищенное веб-приложение и не сойти при этом с ума](http://my.webinar.ru/record/140584/)
+* [А. Карпов. Краткая история хакерства] (http://habrahabr.ru/company/yandex/blog/244559/)
+* [В. Кочетков. Как разработать защищенное веб-приложение и не сойти при этом с ума](http://my.webinar.ru/record/140584/)
 * [В. Кочетков. Информационная угрозология, уязвимоведение и рисководство](http://habrahabr.ru/post/129386/)
 * [А. Масалович. Конкурентная разведка в Интернет](http://www.youtube.com/watch?v=HcwASJCk16k)
 * [Н.А. Гайдамакин. Теоретические основы компьютерной безопасности.](http://elar.urfu.ru/bitstream/10995/1778/5/1335332_schoolbook.pdf) Глава 1.
