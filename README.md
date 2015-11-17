@@ -161,7 +161,7 @@
 * [Подкаст Noise Security Bit. Об образовании в области ИБ](http://noisebit.podster.fm/6)
 * [Подкаст Noise Security Bit. О практической безопасности](http://noisebit.podster.fm/3)
 
-## Блоги
+### Блоги
 * [Information Security Interview Questions](http://danielmiessler.com/study/infosec_interview_questions/)
 * [Security Related Interview Questions for all Engineers](https://www.netmeister.org/blog/security-questions.html)
 * [Application security related questions for developers](https://teamquiz.aspectsecurity.com)
