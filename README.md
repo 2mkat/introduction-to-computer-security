@@ -156,6 +156,7 @@
 ### Видео
 * [В. Кочетков. Как разработать защищенное веб-приложение и не сойти при этом с ума? ](http://my.webinar.ru/record/140584/)
 * [А. Петухов. Обзор ограничений современных технологий в области ИБ] (https://events.yandex.ru/lib/talks/2692/)
+* [Код Верченко](https://www.youtube.com/watch?v=pFl5KxSNHBo)
 
 ### Аудио
 * [Подкаст Noise Security Bit. Об образовании в области ИБ](http://noisebit.podster.fm/6)
