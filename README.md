@@ -186,7 +186,7 @@ if (IsValidSignature(Request["data"], Request["signature"])) {
 
    ```
 <?php
-*
+/*
 CREATE TABLE `message` (
 `remote_addr` TEXT NOT NULL ,
 `user_agent` TEXT NOT NULL ,
