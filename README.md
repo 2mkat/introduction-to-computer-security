@@ -211,7 +211,7 @@ echo("</table>");
 
 ### Обязательные
 * [В. Кочетков. Философия Application Security](https://www.youtube.com/watch?v=mb7tcT-9VXk)
-* [В. Кочетков. Прикладная теория безопасности приложений](https://my.webinar.ru/record/622509/)
+* [В. Кочетков. Прикладная теория безопасности приложений](https://my.webinar.ru/record/622509/?i=574d3d07f32978b0ae039c8604b45409)
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/) Chapter 1 
 
 ### Книги
