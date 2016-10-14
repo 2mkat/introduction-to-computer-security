@@ -35,16 +35,21 @@
     * Превентивные (preventive), смягчающие (mitigative), детективные (detective) и коррективные (corrective) механизмы защиты
     * Многоуровневая защита
     * Безопасность через сокрытие (security by obscurity)
-1. Моделирование угроз
-    * Основные модели угроз 
+1. Моделирование
+    * Модели угроз 
         * модель [CIA] (http://en.wikipedia.org/wiki/Information_security)
         * модель [STRIDE] (http://msdn.microsoft.com/en-us/library/ee823899(v=cs.20).aspx)
         * модель МакКамбера
         * модель Паркера
-   * Модели оценки рисков
+   * Модели оценки уязвимостей
         * модель [DREAD] (http://msdn.microsoft.com/en-us/library/ff648644.aspx)
         * модель [CVSS] (https://www.first.org/cvss/calculator/3.0)
-   * Построение модели угроз в виде диаграммы потока данных
+        * [примеры оценки уязвимостей](https://www.first.org/cvss/examples)
+   * Модели атак
+         * [графы атак](http://www.securitylab.ru/contest/299868.php)
+         * [деревья атак Шнайера](https://en.wikipedia.org/wiki/Attack_tree)
+   * Модели угроз приложений
+         * [DFD](https://www.owasp.org/index.php/Application_Threat_Modeling)
 1. Управление доступом и информационными потоками
    * Идентификация, аутентификация и авторизация
    * Основные политики управления доступом и информационными потоками
