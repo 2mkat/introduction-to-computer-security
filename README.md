@@ -12,7 +12,6 @@
     * подходы к определению безопасности
     * базовое определение защищенной информационной системы (ИС)
     * направления в компьютерной безопасности
-    * профессии в компьютерной безопасности
     * соотношение информационной, кибер и компьютерной безопасности
     * роль криптографии в компьютерной безопасности
     * мифы компьютерной безопасности
@@ -25,17 +24,17 @@
     * атака
     * безопасность
     * защищенность
+    * модель угроз
+    * механизм защиты
 1. Уязвимости
-    * формальное определение уязвимости
-    * [модель Engle-Whalen-Bishop] (http://nob.cs.ucdavis.edu/bishop/notes/2008-cse-14/2008-cse-14.pdf)
-    * классификация уязвимостей
+    * неформальное определение уязвимости
+    * формальное определение уязвимости в модели [Engle-Whalen-Bishop] (http://nob.cs.ucdavis.edu/bishop/notes/2008-cse-14/2008-cse-14.pdf)
+    * оценка уязвимостей [CVSSv3.0](https://habrahabr.ru/company/pt/blog/266485/)
     * каталоги [CWE] (http://cwe.mitre.org/), [CVE] (http://cve.mitre.org/) и [CAPEC] (http://capec.mitre.org/) 
 1. Политика безопасности и механизмы защиты
-    * Превентивные (preventive), смягчающие (mitigative), детективные (detective) и коррективные (corrective) механизмы
+    * Превентивные (preventive), смягчающие (mitigative), детективные (detective) и коррективные (corrective) механизмы защиты
     * Многоуровневая защита
-    * Безопасность через сокрытие 
-    * Безопасность систем с открытым и закрытым исходным кодом
-1. Основные этапы разработки защищенных ИС 
+    * Безопасность через сокрытие (security by obscurity)
 1. Моделирование угроз
     * Основные модели угроз 
         * модель [CIA] (http://en.wikipedia.org/wiki/Information_security)
@@ -48,24 +47,24 @@
    * Построение модели угроз в виде диаграммы потока данных
 1. Управление доступом и информационными потоками
    * Идентификация, аутентификация и авторизация
-   * Политики управление доступом и информационными потоками
+   * Основные политики управления доступом и информационными потоками
        * дискреционное управление доступом (DAC)
        * мандатное управление доступом ([LBAC] (http://en.wikipedia.org/wiki/Lattice-based_access_control), [MLS] (http://en.wikipedia.org/wiki/Multilevel_security), [TE] (http://en.wikipedia.org/wiki/Type_enforcement))
        * ролевое управление доступом (RBAC)
        * атрибутное управление доступом (ABAC)
-   * Классические модели безопасности
-       * модель Харрисона-Руззо-Ульмана
-       * модель Take-Grant
+   * Обзор классических моделей безопасности
+       * [модель Харрисона-Руззо-Ульмана](http://dl.acm.org/citation.cfm?doid=360303.360333)
+       * [модель Take-Grant](http://www.cs.nmt.edu/~doshin/t/s06/cs589/pub/2.JLS-TG.pdf)
        * модель [Белла-ЛаПадулы] (http://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model)
    * Скрытые каналы
        * определение, назначание и виды скрытых каналов
        * общая схема функционирования скрытых каналов
        * примеры скрытых каналов по памяти и по времени
-1. Защищенность сетей
+1. Безопасность TCP/IP
    * Основные принципы функционирования компьютерных сетей
    * [Одна секунда из жизни пакета](http://habrahabr.ru/post/191954/)
    * Классические сетевые атаки
-       * TCP-hijacking
+       * [Атака Митника](http://wiki.cas.mcmaster.ca/index.php/The_Mitnick_attack)
        * [DoS-](http://en.wikipedia.org/wiki/Denial-of-service_attack), [DDoS-](http://www.cisco.com/web/about/security/intelligence/guide_ddos_defense.html), [DRDoS-](http://blog.cloudflare.com/deep-inside-a-dns-amplification-ddos-attack/)атаки
        * ARP-spoofing
    * Классические сетевые механизмы защиты 
@@ -77,12 +76,10 @@
    * Протоколы SSL/TLS
    * PKI
 1. Анализ защищенности
-   * тестирование
-   * технологии [SAST](http://sgordey.blogspot.ru/2013/08/blog-post_13.html), [DAST] (http://sgordey.blogspot.ru/2013/08/0day-11.html) и [IAST](http://www.youtube.com/watch?v=sUNsPBb6NPA)
+   * тестирование безопасности
    * [тестирование на проникновение](http://www.youtube.com/watch?v=X0ilODBepU8&feature=youtu.be)
-1. Практические аспекты
-   * ответственное разглашение и программы Bug Bounty
-   * соревнования по защите информации CTF
+   * технологии [SAST](http://sgordey.blogspot.ru/2013/08/blog-post_13.html), [DAST] (http://sgordey.blogspot.ru/2013/08/0day-11.html) и [IAST](http://www.youtube.com/watch?v=sUNsPBb6NPA)
+   
    
 ## Задания
 1. Построить дерево атак для похищения номера кредитной через веб-приложение.
@@ -234,5 +231,4 @@ echo("</table>");
 * [В. Кочетков. Информационная угрозология, уязвимоведение и рисководство](http://habrahabr.ru/post/129386/)
 
 ## Архив
-
 * [Курс 2015 года](2015.md)
