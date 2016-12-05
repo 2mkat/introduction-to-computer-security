@@ -173,7 +173,7 @@ if (IsValidSignature(Request["data"], Request["signature"])) {
    К. Угроза - это цель злоумышленника.
    
    ```
-11*. Какие уязвимости содержатся в следующем фрагменте кода? Каким образом можно воспользоваться данными уязвимостями для проведения атаки на систему? Описать последовательность выполняемых действий.
+11\*. Какие уязвимости содержатся в следующем фрагменте кода? Каким образом можно воспользоваться данными уязвимостями для проведения атаки на систему? Описать последовательность выполняемых действий.
    ```
 <?php
 /*
@@ -209,15 +209,47 @@ while($row = mysql_fetch_assoc($query)) {
 echo("</table>");
 ?>
    ```
+12\*. Для упрощенной грамматики фильтров LDAP, основанной на [RFC 2254](https://tools.ietf.org/html/rfc2254), реализовать парсер на [ANTLR](https://github.com/tsu-iscd/getting-started-with-antlr4), а также построить грамматику и парсер для обнаружения LDAP-инъекций.
+
+Грамматика:
+
+```
+        filter     = "(" filtercomp ")"
+        filtercomp = and / or / not / item
+        and        = "&" filterlist
+        or         = "|" filterlist
+        not        = "!" filter
+        filterlist = 1*filter
+        item       = simple / present
+        simple     = attr filtertype value
+        filtertype = equal / approx / greater / less
+        equal      = "="
+        approx     = "~="
+        greater    = ">="
+        less       = "<="
+        
+        present    = attr "=*"
+        final      = value
+        attr       = 1*letter
+        value      = 1*(letter | digit)
+        
+        digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
+        
+        letter = "a" | "b" | "c" | "d" | "e" | "f" | "g" 
+               | "h" | "i" | "j" | "k" | "l" | "m" | "n" 
+               | "o" | "p" | "q" | "r" | "s" | "t" | "u"
+               | "v" | "w" | "x" | "y" | "z" ;
+```
+
 ## Материалы
 
 ### Обязательные
 * [В. Кочетков. Философия Application Security](https://www.youtube.com/watch?v=mb7tcT-9VXk)
 * [В. Кочетков. Прикладная теория безопасности приложений](https://my.webinar.ru/record/622509/?i=574d3d07f32978b0ae039c8604b45409)
-* [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/) Chapter 1 
+* [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/) Chapter 1
+* [L.Sassaman, M. Patterson, S. Bratus, M. Locasto, A. Shubina. Security Applications of Formal Language Theory](http://www.langsec.org/papers/langsec-tr.pdf)
 
 ### Книги
-* [Н.А. Гайдамакин. Теоретические основы компьютерной безопасности.](http://elar.urfu.ru/bitstream/10995/1778/5/1335332_schoolbook.pdf)
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/)
 
 ### Видео
