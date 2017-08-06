@@ -178,19 +178,19 @@
    ```
    Фрагмент 2.
    ```
-  private static bool IsValidSignature(string data, string signature) {
-  var bytes = Encoding.ASCII.GetBytes("eCTR4rhYQVNwn78j" + data);
-  var hash = MD5.Create().ComputeHash(bytes);
-  return BitConverter.ToString(hash) == signature;
-}
-...
-if (IsValidSignature(Request["data"], Request["signature"])) {
-  var decryptor = Aes.Create() { 
-    BlockSize = 128;
-    Key = Encoding.ASCII.GetBytes("YtGDn6mvAHbp5X7C");
-    IV = Encoding.ASCII.GetBytes("mHMUYSjiVxo4wp9R");
-  }.CreateDecryptor();
-}
+   private static bool IsValidSignature(string data, string signature) {
+   var bytes = Encoding.ASCII.GetBytes("eCTR4rhYQVNwn78j" + data);
+   var hash = MD5.Create().ComputeHash(bytes);
+   return BitConverter.ToString(hash) == signature;
+   }
+   ...
+   if (IsValidSignature(Request["data"], Request["signature"])) {
+      var decryptor = Aes.Create() { 
+        BlockSize = 128;
+        Key = Encoding.ASCII.GetBytes("YtGDn6mvAHbp5X7C");
+        IV = Encoding.ASCII.GetBytes("mHMUYSjiVxo4wp9R");
+      }.CreateDecryptor();
+   }
    ```
 5. Написать приложение, содержащее какую-либо очевидную уязвимость, необнаруживаемую сканером безопасности (false negative), а также приводящее к генерации сканером сообщения о наличии уязвимости, отсутствующей на самом деле (false positive). Пример: веб-приложение содержащее [недостатки предварительной обработки данных в SQL-запросах](http://cwe.mitre.org/data/definitions/89.html), приводящие к возникновению уязвимости к атаке [SQL-injection](https://capec.mitre.org/data/definitions/66.html), необнаруживаемой сканером [Sqlmap](http://sqlmap.org/) и не содержащее [недостатки предварительной обработки данных, выводящихся пользователю](http://cwe.mitre.org/data/definitions/79.html), но ошибочно считаемое уязвимым к атаке [XSS](https://capec.mitre.org/data/definitions/18.html) сканером [ZAP](https://code.google.com/p/zaproxy/) .
 
