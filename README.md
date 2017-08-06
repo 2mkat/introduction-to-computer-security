@@ -148,6 +148,7 @@
    
    Фрагмент 1.
    ```
+   
 <?php
     if (isset($_GET['redirect'])) {
         header('Location: '.$_GET['redirect']);
@@ -176,6 +177,7 @@
     </body>
 </html>
    ```
+   
    Фрагмент 2.
    ```
   private static bool IsValidSignature(string data, string signature) {
@@ -315,7 +317,7 @@ if (IsValidSignature(Request["data"], Request["signature"])) {
 * [В. Кочетков. Философия Application Security](https://www.youtube.com/watch?v=mb7tcT-9VXk)
 * [В. Кочетков. Прикладная теория безопасности приложений](https://my.webinar.ru/record/622509/?i=574d3d07f32978b0ae039c8604b45409)
 * [В. Кочетков. Как разработать защищенное веб-приложение и не сойти при этом с ума? ](http://my.webinar.ru/record/140584/)
-* [А. Петухов. Обзор ограничений современных технологий в области ИБ] (https://events.yandex.ru/lib/talks/2692/)
+* [А. Петухов. Обзор ограничений современных технологий в области ИБ](https://events.yandex.ru/lib/talks/2692/)
 * [Код Верченко](https://www.youtube.com/watch?v=pFl5KxSNHBo)
 
 ### Аудио
