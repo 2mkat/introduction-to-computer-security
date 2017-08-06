@@ -61,6 +61,7 @@
 1. Атаки
     * Модель нарушителя
     * Классификация нарушителей
+    * Nation-state hackers
     * Модели атак
         * [Графы атак](http://www.securitylab.ru/contest/299868.php)
         * [Деревья атак Шнайера](https://en.wikipedia.org/wiki/Attack_tree)
@@ -75,7 +76,8 @@
     * Коррективные (corrective)
 * Многоуровневая защита (Defence in depth)
 * Usability
-* Безопасность через сокрытие (security by obscurity)
+* Безопасность через сокрытие (Security by obscurity)
+* Безопасность через дизайн (Security by design)
 
 #### Управление доступом
 * Идентификация, аутентификация и авторизация
@@ -120,11 +122,6 @@
    * Протоколы SSL/TLS
    * PKI
 
-#### Анализ защищенности
-* Тестирование безопасности
-* [Тестирование на проникновение](http://www.youtube.com/watch?v=X0ilODBepU8&feature=youtu.be)
-* Технологии [SAST](http://sgordey.blogspot.ru/2013/08/blog-post_13.html), [DAST](http://sgordey.blogspot.ru/2013/08/0day-11.html) и [IAST](http://www.youtube.com/watch?v=sUNsPBb6NPA)
-
 #### Теоретическое основы защиты приложений
 1. Модель угроз
 2. Потоки управления (Control flow)
@@ -137,7 +134,12 @@
     * Spoofing
     * Spoofing потока операций
     * Логические атаки
-   
+
+#### Анализ защищенности
+* Тестирование безопасности
+* [Тестирование на проникновение](http://www.youtube.com/watch?v=X0ilODBepU8&feature=youtu.be)
+* Технологии [SAST](http://sgordey.blogspot.ru/2013/08/blog-post_13.html), [DAST](http://sgordey.blogspot.ru/2013/08/0day-11.html) и [IAST](http://www.youtube.com/watch?v=sUNsPBb6NPA)
+
 ## Задания
 1. Построить дерево атак для похищения номера кредитной через веб-приложение.
 2. Построить модель угроз в виде DFD для простейшего веб-приложения, используя Microsoft Threat Modeling Tool.
