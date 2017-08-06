@@ -8,7 +8,7 @@
 
 ## Содержание
 
-### Введение в предмет компьютерной безопасности
+#### Введение в предмет компьютерной безопасности
 * Существуют  ли безопасные компьютерные системы
 * Является ли компьютерная безопасность наукой
 * Направления в компьютерной безопасности
@@ -19,7 +19,7 @@
 * Кто такие хакеры
 * Информационная, кибер и компьютерная безопасность
 
-### Основные концепции компьютерной безопасности     
+#### Основные концепции компьютерной безопасности     
 1. Основные термины компьютерной безопасности
     * политика безопасности
     * угроза
@@ -31,9 +31,9 @@
     * безопасность и защищенность
     * доверие и доверенность
 
-1. Подходы к определению безопасности    
-   * базовое определение защищенной информационной системы (ИС)
-   * подходы к определению безопасности
+1. Определение безопасности    
+   * Базовое определение защищенной информационной системы (ИС)
+   * Подходы к формальному определению безопасности
 
 1. Угрозы
     * Неформальное определение угрозы
@@ -55,14 +55,18 @@
     * Модели оценки уязвимостей
         * Модель [DREAD](http://msdn.microsoft.com/en-us/library/ff648644.aspx)
         * Модель [CVSS](https://www.first.org/cvss/calculator/3.0)
+        * Оценка уязвимостей [CVSSv3.0](https://habrahabr.ru/company/pt/blog/266485/)   
         * [Примеры оценки уязвимостей](https://www.first.org/cvss/examples)
-        * Оценка уязвимостей [CVSSv3.0](https://habrahabr.ru/company/pt/blog/266485/)    
 
 1. Атаки
-    * [графы атак](http://www.securitylab.ru/contest/299868.php)
-    * [деревья атак Шнайера](https://en.wikipedia.org/wiki/Attack_tree)
+    * Модель нарушителя
+    * Классификация нарушителей
+    * Модели атак
+        * [Графы атак](http://www.securitylab.ru/contest/299868.php)
+        * [Деревья атак Шнайера](https://en.wikipedia.org/wiki/Attack_tree)
+    * Каталог [CAPEC](http://capec.mitre.org/) 
 
-### Принципы построения защищенных компьютерных систем
+#### Принципы построения защищенных компьютерных систем
 * [Классические принципы защищенности Зальцера и Шредера](http://www.cs.virginia.edu/~evans/cs551/saltzer/)
 * Механизмы защиты
     * Превентивные (preventive)
@@ -73,7 +77,7 @@
 * Usability
 * Безопасность через сокрытие (security by obscurity)
 
-### Управление доступом
+#### Управление доступом
 * Идентификация, аутентификация и авторизация
 * Основные политики управления доступом и информационными потоками
     * дискреционное управление доступом (DAC)
@@ -85,12 +89,12 @@
     * [модель Take-Grant](http://www.cs.nmt.edu/~doshin/t/s06/cs589/pub/2.JLS-TG.pdf)
     * [модель Белла-ЛаПадулы](http://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model) 
  
- ### Скрытые каналы
+#### Скрытые каналы
  * Определение, назначание и виды скрытых каналов
  * Общая схема функционирования скрытых каналов
  * Примеры скрытых каналов по памяти и по времени
 
-### Безопасность компьютерных сетей
+#### Безопасность компьютерных сетей
 1. Основные принципы функционирования компьютерных сетей
    * [Одна секунда из жизни пакета](http://habrahabr.ru/post/191954/)
    * [What happens when...](https://github.com/alex/what-happens-when)
@@ -116,11 +120,23 @@
    * Протоколы SSL/TLS
    * PKI
 
-### Анализ защищенности
-   * Тестирование безопасности
-   * [Тестирование на проникновение](http://www.youtube.com/watch?v=X0ilODBepU8&feature=youtu.be)
-   * Технологии [SAST](http://sgordey.blogspot.ru/2013/08/blog-post_13.html), [DAST](http://sgordey.blogspot.ru/2013/08/0day-11.html) и [IAST](http://www.youtube.com/watch?v=sUNsPBb6NPA)
-   
+#### Анализ защищенности
+* Тестирование безопасности
+* [Тестирование на проникновение](http://www.youtube.com/watch?v=X0ilODBepU8&feature=youtu.be)
+* Технологии [SAST](http://sgordey.blogspot.ru/2013/08/blog-post_13.html), [DAST](http://sgordey.blogspot.ru/2013/08/0day-11.html) и [IAST](http://www.youtube.com/watch?v=sUNsPBb6NPA)
+
+#### Теоретическое основы защиты приложений
+1. Модель угроз
+2. Потоки управления (Control flow)
+3. Информационные потоки (Information flow)
+4 Состояния приложения
+5 Классы уязвимостей приложений
+6. Атаки на приложения
+    * Инъекции
+    * Гонки
+    * Spoofing
+    * Spoofing потока операций
+    * Логические атаки
    
 ## Задания
 1. Построить дерево атак для похищения номера кредитной через веб-приложение.
@@ -279,16 +295,23 @@ if (IsValidSignature(Request["data"], Request["signature"])) {
 
 ## Материалы
 
-### Обязательные
-* [В. Кочетков. Философия Application Security](https://www.youtube.com/watch?v=mb7tcT-9VXk)
-* [В. Кочетков. Прикладная теория безопасности приложений](https://my.webinar.ru/record/622509/?i=574d3d07f32978b0ae039c8604b45409)
+### Обязательные к прочтению
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/) Chapter 1
 * [L.Sassaman, M. Patterson, S. Bratus, M. Locasto, A. Shubina. Security Applications of Formal Language Theory](http://www.langsec.org/papers/langsec-tr.pdf)
+* [Matt Bishop. Modeling Computer Insecurity](http://nob.cs.ucdavis.edu/bishop/notes/2008-cse-14/2008-cse-14.pdf)
+
+### Обязательные к просмотру
+* [В. Кочетков. Трущобы Application Security](https://www.youtube.com/watch?v=apQEQQm6GaE)
+* [С. Гордейчик. Threat Hunting](https://www.youtube.com/watch?v=i2K0NKV_zho)
+
 
 ### Книги
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/)
 
 ### Видео
+* [Rob Joyce. NSA Tailored Access Operations](https://www.youtube.com/watch?v=bDJb8WOJYdA)
+* [В. Кочетков. Философия Application Security](https://www.youtube.com/watch?v=mb7tcT-9VXk)
+* [В. Кочетков. Прикладная теория безопасности приложений](https://my.webinar.ru/record/622509/?i=574d3d07f32978b0ae039c8604b45409)
 * [В. Кочетков. Как разработать защищенное веб-приложение и не сойти при этом с ума? ](http://my.webinar.ru/record/140584/)
 * [А. Петухов. Обзор ограничений современных технологий в области ИБ] (https://events.yandex.ru/lib/talks/2692/)
 * [Код Верченко](https://www.youtube.com/watch?v=pFl5KxSNHBo)
