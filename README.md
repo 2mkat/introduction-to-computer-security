@@ -329,8 +329,3 @@
 * [Security Related Interview Questions for all Engineers](https://www.netmeister.org/blog/security-questions.html)
 * [Application security related questions for developers](https://teamquiz.aspectsecurity.com)
 * [В. Кочетков. Информационная угрозология, уязвимоведение и рисководство](http://habrahabr.ru/post/129386/)
-
-## Архив
-* [Курс 2016 года](2016.md) 
-* [Курс 2015 года](2015.md)
-
