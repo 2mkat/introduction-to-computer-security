@@ -51,13 +51,8 @@
     * Неформальное определение уязвимости
     * Формальное определение уязвимости в модели [Engle-Whalen-Bishop](http://nob.cs.ucdavis.edu/bishop/notes/2008-cse-14/2008-cse-14.pdf)
     * Примеры уязвимостей
-    * Каталог [CVE](http://cve.mitre.org/) и [CAPEC](http://capec.mitre.org/) 
-    * Модели оценки уязвимостей
-        * Модель [DREAD](http://msdn.microsoft.com/en-us/library/ff648644.aspx)
-        * Модель [CVSS](https://www.first.org/cvss/calculator/3.0)
-        * Оценка уязвимостей [CVSSv3.0](https://habrahabr.ru/company/pt/blog/266485/)   
-        * [Примеры оценки уязвимостей](https://www.first.org/cvss/examples)
-
+    * Каталог [CVE](http://cve.mitre.org/)
+    
 1. Атаки
     * Модель нарушителя
     * Классификация нарушителей
@@ -65,15 +60,23 @@
     * Модели атак
         * [Графы атак](http://www.securitylab.ru/contest/299868.php)
         * [Деревья атак Шнайера](https://en.wikipedia.org/wiki/Attack_tree)
-    * Каталог [CAPEC](http://capec.mitre.org/) 
+    * Каталог [CAPEC](http://capec.mitre.org/)
 
-#### Принципы построения защищенных компьютерных систем
-* [Классические принципы защищенности Зальцера и Шредера](http://www.cs.virginia.edu/~evans/cs551/saltzer/)
-* Механизмы защиты
+1. Механизмы защиты
     * Превентивные (preventive)
     * Смягчающие (mitigative)
     * Детективные (detective)
     * Коррективные (corrective)
+
+1. Риск
+    * Модели оценки уязвимостей
+        * Модель [DREAD](http://msdn.microsoft.com/en-us/library/ff648644.aspx)
+        * Модель [CVSS](https://www.first.org/cvss/calculator/3.0)
+        * Оценка уязвимостей [CVSSv3.0](https://habrahabr.ru/company/pt/blog/266485/)   
+        * [Примеры оценки уязвимостей](https://www.first.org/cvss/examples)
+
+#### Принципы построения защищенных компьютерных систем
+* [Классические принципы защищенности Зальцера и Шредера](http://www.cs.virginia.edu/~evans/cs551/saltzer/)
 * Многоуровневая защита (Defence in depth)
 * Usability
 * Безопасность через сокрытие (Security by obscurity)
@@ -81,7 +84,7 @@
 
 #### Управление доступом
 * Идентификация, аутентификация и авторизация
-* Основные политики управления доступом и информационными потоками
+* Виды политик управления доступом
     * дискреционное управление доступом (DAC)
     * мандатное управление доступом [LBAC](http://en.wikipedia.org/wiki/Lattice-based_access_control), [MLS](http://en.wikipedia.org/wiki/Multilevel_security), [TE](http://en.wikipedia.org/wiki/Type_enforcement)
     * ролевое управление доступом (RBAC)
