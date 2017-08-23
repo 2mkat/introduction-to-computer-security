@@ -47,7 +47,8 @@
         * модель Паркера
     * Модели угроз приложений
          * [DFD](https://www.owasp.org/index.php/Application_Threat_Modeling)
-    * Каталог [CWE](http://cwe.mitre.org/)     
+    * Каталог [CWE](http://cwe.mitre.org/)
+    * Пример модели угроз [Secure Password Storage](http://goo.gl/Spvzs)
 
 1. Уязвимости
     * Неформальное определение уязвимости
@@ -324,7 +325,6 @@
 * [В. Кочетков. Трущобы Application Security](https://www.youtube.com/watch?v=apQEQQm6GaE)
 * [С. Гордейчик. Threat Hunting](https://www.youtube.com/watch?v=i2K0NKV_zho)
 
-
 ### Книги
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/)
 
@@ -340,8 +340,9 @@
 * [Подкаст Noise Security Bit. Об образовании в области ИБ](http://noisebit.podster.fm/6)
 * [Подкаст Noise Security Bit. О практической безопасности](http://noisebit.podster.fm/3)
 
-### Блоги
+### Статьи
 * [Information Security Interview Questions](http://danielmiessler.com/study/infosec_interview_questions/)
 * [Security Related Interview Questions for all Engineers](https://www.netmeister.org/blog/security-questions.html)
 * [Application security related questions for developers](https://teamquiz.aspectsecurity.com)
 * [В. Кочетков. Информационная угрозология, уязвимоведение и рисководство](http://habrahabr.ru/post/129386/)
+* [Threat Model for Secure Password Storage](http://goo.gl/Spvzs)
