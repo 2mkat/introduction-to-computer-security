@@ -49,6 +49,7 @@
          * [DFD](https://www.owasp.org/index.php/Application_Threat_Modeling)
     * Каталог [CWE](http://cwe.mitre.org/)
     * Пример модели угроз [Secure Password Storage](http://goo.gl/Spvzs)
+    * Индикаторы компрометации
 
 1. Уязвимости
     * Неформальное определение уязвимости
@@ -335,6 +336,7 @@
 * [В. Кочетков. Как разработать защищенное веб-приложение и не сойти при этом с ума? ](http://my.webinar.ru/record/140584/)
 * [А. Петухов. Обзор ограничений современных технологий в области ИБ](https://events.yandex.ru/lib/talks/2692/)
 * [Код Верченко](https://www.youtube.com/watch?v=pFl5KxSNHBo)
+* [MIT Computer Systems Security](https://www.youtube.com/playlist?list=PLA6Ht2dJt3SLQmKhygx8HfwV_hxuPPCea)
 
 ### Аудио
 * [Подкаст Noise Security Bit. Об образовании в области ИБ](http://noisebit.podster.fm/6)
