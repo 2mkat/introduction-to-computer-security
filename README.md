@@ -103,7 +103,7 @@
 #### Скрытые каналы
  * Определение, назначание и виды скрытых каналов
  * Общая схема функционирования скрытых каналов
- * Примеры скрытых каналов по памяти и по времени
+ * Примеры скрытых каналов
 
 #### Безопасность компьютерных сетей
 1. Основные принципы функционирования компьютерных сетей
@@ -321,10 +321,13 @@
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/) Chapter 1
 * [L.Sassaman, M. Patterson, S. Bratus, M. Locasto, A. Shubina. Security Applications of Formal Language Theory](http://www.langsec.org/papers/langsec-tr.pdf)
 * [Matt Bishop. Modeling Computer Insecurity](http://nob.cs.ucdavis.edu/bishop/notes/2008-cse-14/2008-cse-14.pdf)
+* [В. Кочетков. Информационная угрозология, уязвимоведение и рисководство](http://habrahabr.ru/post/129386/)
 
 ### Обязательные к просмотру
 * [В. Кочетков. Трущобы Application Security](https://www.youtube.com/watch?v=apQEQQm6GaE)
 * [С. Гордейчик. Threat Hunting](https://www.youtube.com/watch?v=i2K0NKV_zho)
+* [Д. Ефремов. Формальная верификация кода на языке С](https://www.youtube.com/watch?v=gKEOzRm7aaw&feature=youtu.be)
+* [Р. Сапольски. Биология поведения человека. Лекцция 1. Введение](https://www.youtube.com/watch?v=ik9t96SMtB0)
 
 ### Книги
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/)
@@ -346,5 +349,4 @@
 * [Information Security Interview Questions](http://danielmiessler.com/study/infosec_interview_questions/)
 * [Security Related Interview Questions for all Engineers](https://www.netmeister.org/blog/security-questions.html)
 * [Application security related questions for developers](https://teamquiz.aspectsecurity.com)
-* [В. Кочетков. Информационная угрозология, уязвимоведение и рисководство](http://habrahabr.ru/post/129386/)
 * [Threat Model for Secure Password Storage](http://goo.gl/Spvzs)
