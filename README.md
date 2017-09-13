@@ -84,7 +84,7 @@
 * [Классические принципы защищенности Зальцера и Шредера](http://www.cs.virginia.edu/~evans/cs551/saltzer/)
 * Многоуровневая защита (Defence in depth)
 * Usability
-* Безопасность через сокрытие (Security by obscurity)
+* [Безопасность через сокрытие (Security by obscurity)](https://danielmiessler.com/study/security-by-obscurity/)
 * Безопасность через дизайн (Security by design)
 * [Что пошло не так?](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/lecture-notes/MIT6_858F14_lec1.pdf)
 
