@@ -338,7 +338,7 @@
 * [В. Кочетков. Прикладная теория безопасности приложений](https://my.webinar.ru/record/622509/?i=574d3d07f32978b0ae039c8604b45409)
 * [В. Кочетков. Как разработать защищенное веб-приложение и не сойти при этом с ума? ](http://my.webinar.ru/record/140584/)
 * [А. Петухов. Обзор ограничений современных технологий в области ИБ](https://events.yandex.ru/lib/talks/2692/)
-* [Код Верченко](https://www.youtube.com/watch?v=pFl5KxSNHBo)
+* [Код Верченко](https://www.youtube.com/watch?v=6SrhgeEHYD0)
 * [MIT Computer Systems Security](https://www.youtube.com/playlist?list=PLA6Ht2dJt3SLQmKhygx8HfwV_hxuPPCea)
 
 ### Аудио
