@@ -211,6 +211,7 @@
    }
    ```
 5. Написать приложение, содержащее какую-либо очевидную уязвимость, необнаруживаемую сканером безопасности (false negative), а также приводящее к генерации сканером сообщения о наличии уязвимости, отсутствующей на самом деле (false positive). Пример: веб-приложение, содержащее [недостатки предварительной обработки данных в SQL-запросах](http://cwe.mitre.org/data/definitions/89.html), приводящие к возникновению уязвимости к атаке [SQL-injection](https://capec.mitre.org/data/definitions/66.html) необнаруживаемой сканером [Sqlmap](http://sqlmap.org/) и не содержащее [недостатки предварительной обработки данных, выводящихся пользователю](http://cwe.mitre.org/data/definitions/79.html), но ошибочно считаемое уязвимым к атаке [XSS](https://capec.mitre.org/data/definitions/18.html) сканером [ZAP](https://code.google.com/p/zaproxy/).
+[Примеры](https://github.com/client9/libinjection/blob/e1cd4e447c1352f1b3cd2169299b6b67556eb922/data/false_positives.txt) false positive в модуле WAF libinjection.
 
 6. Устранить, выбранный класс уязвимостей (например, класс уязвимостей к атаке LDAP Injection) в приложении [Gruyere](https://google-gruyere.appspot.com/), [DVWA](http://www.dvwa.co.uk/) или в любом другом приложении подобного класса путем изменения его исходного кода.
 
