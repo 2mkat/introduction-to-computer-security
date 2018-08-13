@@ -328,7 +328,7 @@
 * [В. Кочетков. Трущобы Application Security](https://www.youtube.com/watch?v=apQEQQm6GaE)
 * [С. Гордейчик. Threat Hunting](https://www.youtube.com/watch?v=i2K0NKV_zho)
 * [Д. Ефремов. Формальная верификация кода на языке С](https://www.youtube.com/watch?v=gKEOzRm7aaw&feature=youtu.be)
-* [Р. Сапольски. Биология поведения человека. Лекцция 1. Введение](https://www.youtube.com/watch?v=ik9t96SMtB0)
+* [Р. Сапольски. Биология поведения человека. Лекция 1. Введение](https://www.youtube.com/watch?v=ik9t96SMtB0)
 
 ### Книги
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/)
