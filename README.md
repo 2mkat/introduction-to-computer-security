@@ -26,6 +26,7 @@
 * [Robert Graham. Top 10 Most Obvious Hacks of All Time](https://blog.erratasec.com/2017/07/top-10-most-obvious-hacks-of-all-time.html)
 
 ### Provable security
+* [A Graduate Course in Applied Cryptography. Chapter 2.3. Computational ciphers and semantic security](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
 * [Matt Bishop. Modeling Computer Insecurity](http://nob.cs.ucdavis.edu/bishop/notes/2008-cse-14/2008-cse-14.pdf)
 * [Thomas Dullien. Weird machines, exploitability, and provable unexploitability](http://www.dullien.net/thomas/weird-machines-exploitability.pdf)
 * [L.Sassaman, M. Patterson, S. Bratus, M. Locasto, A. Shubina. Security Applications of Formal Language Theory](http://www.langsec.org/papers/langsec-tr.pdf)
