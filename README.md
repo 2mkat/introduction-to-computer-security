@@ -14,25 +14,16 @@
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/) Chapter 1
 * [Ken Thompson. Reflections on Trusting Trust](https://crypto.stanford.edu/cs155/papers/thompson.pdf)
 
-### Основные концепции компьютерной безопасности     
-* [Vladimir Kochetkov. Информационная угрозология, уязвимоведение и рисководство](http://habrahabr.ru/post/129386/)
-
-### Threat modelling, intellengence, and hunting
-* [CIA](http://en.wikipedia.org/wiki/Information_security)
+### Foundational Concepts in Security
 * [STRIDE](http://msdn.microsoft.com/en-us/library/ee823899(v=cs.20).aspx)
 * [Sergey Gordeichik. Threat Hunting](https://www.youtube.com/watch?v=i2K0NKV_zho)
 * [Threat Model for Secure Password Storage](http://goo.gl/Spvzs)
 * [DFD](https://www.owasp.org/index.php/Application_Threat_Modeling)
-* [Attack trees](https://en.wikipedia.org/wiki/Attack_tree)
-
-### Attacks
-* [Robert Graham. Top 10 Most Obvious Hacks of All Time](https://blog.erratasec.com/2017/07/top-10-most-obvious-hacks-of-all-time.html)
-
-### Risk-based security
 * [DREAD](http://msdn.microsoft.com/en-us/library/ff648644.aspx)
 * [CVSS](https://www.first.org/cvss/calculator/3.0)
-* [CVSSv3.0](https://habrahabr.ru/company/pt/blog/266485/)   
 * [Examples of vulnerabilities](https://www.first.org/cvss/examples)
+* [Attack trees](https://en.wikipedia.org/wiki/Attack_tree)
+* [Robert Graham. Top 10 Most Obvious Hacks of All Time](https://blog.erratasec.com/2017/07/top-10-most-obvious-hacks-of-all-time.html)
 
 ### Provable security
 * [Matt Bishop. Modeling Computer Insecurity](http://nob.cs.ucdavis.edu/bishop/notes/2008-cse-14/2008-cse-14.pdf)
