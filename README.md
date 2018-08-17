@@ -8,7 +8,7 @@
 
 ## Syllabus
 
-### Course introduction
+### Course Introduction
 * [Noise Security Bit. Об образовании в области ИБ](http://noisebit.podster.fm/6)
 * [Noise Security Bit. О практической безопасности](http://noisebit.podster.fm/3)
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/) Chapter 1
@@ -25,21 +25,21 @@
 * [Attack trees](https://en.wikipedia.org/wiki/Attack_tree)
 * [Robert Graham. Top 10 Most Obvious Hacks of All Time](https://blog.erratasec.com/2017/07/top-10-most-obvious-hacks-of-all-time.html)
 
-### Provable security
+### Provable Security
 * [A Graduate Course in Applied Cryptography. Chapter 2.3. Computational ciphers and semantic security](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
 * [Matt Bishop. Modeling Computer Insecurity](http://nob.cs.ucdavis.edu/bishop/notes/2008-cse-14/2008-cse-14.pdf)
 * [Thomas Dullien. Weird machines, exploitability, and provable unexploitability](http://www.dullien.net/thomas/weird-machines-exploitability.pdf)
 * [L.Sassaman, M. Patterson, S. Bratus, M. Locasto, A. Shubina. Security Applications of Formal Language Theory](http://www.langsec.org/papers/langsec-tr.pdf)
 
-### Security principles
+### Security Principles
 * [Классические принципы защищенности Зальцера и Шредера](http://www.cs.virginia.edu/~evans/cs551/saltzer/)
 * Многоуровневая защита (Defence in depth)
 * [Безопасность через сокрытие (Security by obscurity)](https://danielmiessler.com/study/security-by-obscurity/)
 
-### Access control
-* [модель Харрисона-Руззо-Ульмана](http://dl.acm.org/citation.cfm?doid=360303.360333)
-* [модель Take-Grant](http://www.cs.nmt.edu/~doshin/t/s06/cs589/pub/2.JLS-TG.pdf)
-* [модель Белла-ЛаПадулы](http://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model) 
+### Access Control
+* [HRU Model](http://dl.acm.org/citation.cfm?doid=360303.360333)
+* [Take-Grant Model](http://www.cs.nmt.edu/~doshin/t/s06/cs589/pub/2.JLS-TG.pdf)
+* [David Bell. Looking Back at the Bell-La Padula Model](https://www.acsac.org/2005/papers/Bell.pdf) 
  
 ### Covert channels and side channels attacks
 * [Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses](https://eprint.iacr.org/2016/479.pdf) 
