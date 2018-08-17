@@ -52,4 +52,6 @@
 ### Covert channels and side channels attacks
 * [Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses](https://eprint.iacr.org/2016/479.pdf) 
 
-
+## Assignments
+* [Course assignments](assignments.md)
+* Course project
