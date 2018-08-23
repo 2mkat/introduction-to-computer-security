@@ -1,14 +1,13 @@
-# Введение в компьютерную безопасность
+# Introduction to Computer Security
 
-## Описание курса
+## Course Overview
 
-Программа и материалы курса «Введение в компьютерную безопасность»
-образовательной программы по направлению подготовки (специальности)
-10.05.01 «Компьютерная безопасность», преподаваемого в [Национальном исследовательском Томском государственном университете](http://www.tsu.ru) на [кафедре защиты информации и киптографии](http://isc.tsu.ru)
+This course focuses on computer security fundamentals, the main concepts, terms and principles. Students will learn to understand what computer security is (and is not), learn threats, vulnerabilities and attacks, principles of practical and provable security,  and get hands-on experience with common security features.
+The course is lectured in [Tomsk State University](http://en.tsu.ru).
 
 ## Syllabus
 
-### Course Introduction
+### Introduction
 * [Noise Security Bit. Об образовании в области ИБ](http://noisebit.podster.fm/6)
 * [Noise Security Bit. О практической безопасности](http://noisebit.podster.fm/3)
 * [Matt Bishop. Introduction to Computer Security.](http://nob.cs.ucdavis.edu/book/book-intro/) Chapter 1
@@ -32,9 +31,9 @@
 * [L.Sassaman, M. Patterson, S. Bratus, M. Locasto, A. Shubina. Security Applications of Formal Language Theory](http://www.langsec.org/papers/langsec-tr.pdf)
 
 ### Security Principles
-* [Классические принципы защищенности Зальцера и Шредера](http://www.cs.virginia.edu/~evans/cs551/saltzer/)
-* Многоуровневая защита (Defence in depth)
-* [Безопасность через сокрытие (Security by obscurity)](https://danielmiessler.com/study/security-by-obscurity/)
+* [The Protection of Information in Computer Systems. Saltser's and Schroeder's security principles](http://www.cs.virginia.edu/~evans/cs551/saltzer/)
+* [Defence in depth](https://www.sans.org/reading-room/whitepapers/basics/defense-in-depth-525)
+* [Security by obscurity](https://danielmiessler.com/study/security-by-obscurity/)
 
 ### Access Control
 * [HRU Model](http://dl.acm.org/citation.cfm?doid=360303.360333)
