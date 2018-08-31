@@ -20,7 +20,7 @@ The course is lectured in [Tomsk State University](http://en.tsu.ru).
 * [Threat Model for Secure Password Storage](http://goo.gl/Spvzs)
 * [DFD](https://www.owasp.org/index.php/Application_Threat_Modeling) and [Attack Trees](https://en.wikipedia.org/wiki/Attack_tree)
 * [STRIDE](http://msdn.microsoft.com/en-us/library/ee823899(v=cs.20).aspx) and [DREAD](http://msdn.microsoft.com/en-us/library/ff648644.aspx)
-* [CVSS](https://www.first.org/cvss/calculator/3.0) and [Examples of Vulnerabilities](https://www.first.org/cvss/examples)
+* [CVSS](https://www.first.org/cvss/calculator/3.0) and [vulnerabilities within CVSS](https://www.first.org/cvss/examples)
 * [Robert Graham. Top 10 Most Obvious Hacks of All Time](https://blog.erratasec.com/2017/07/top-10-most-obvious-hacks-of-all-time.html)
 
 #### Provable Security
