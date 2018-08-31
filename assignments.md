@@ -1,6 +1,7 @@
 # Assignments
 
-1. Develop an attack tree describing ways to realize an arbitrary computer security threat.
+## Part 1: Basics
+1. Develop an attack tree describing ways to realize a chosen computer security threat.
 2. Develop a DFD describing a trivial web application. "Microsoft Threat Modeling Tool" should be used.
 3. Calculate scores for 3 popular and known vulnerabilities within [DREAD](https://msdn.microsoft.com/en-us/library/aa302419.aspx) and [CVSSv3](https://www.first.org/cvss/calculator/3.0) models.
 4. Analyze the code snippets below and find weaknesses and vulnerabilities.
@@ -51,12 +52,7 @@
       }.CreateDecryptor();
    }
    ```
-5. Написать приложение, содержащее какую-либо очевидную уязвимость, необнаруживаемую сканером безопасности (false negative), а также приводящее к генерации сканером сообщения о наличии уязвимости, отсутствующей на самом деле (false positive). Пример: веб-приложение, содержащее [недостатки предварительной обработки данных в SQL-запросах](http://cwe.mitre.org/data/definitions/89.html), приводящие к возникновению уязвимости к атаке [SQL-injection](https://capec.mitre.org/data/definitions/66.html) необнаруживаемой сканером [Sqlmap](http://sqlmap.org/) и не содержащее [недостатки предварительной обработки данных, выводящихся пользователю](http://cwe.mitre.org/data/definitions/79.html), но ошибочно считаемое уязвимым к атаке [XSS](https://capec.mitre.org/data/definitions/18.html) сканером [ZAP](https://code.google.com/p/zaproxy/).
-[Примеры](https://github.com/client9/libinjection/blob/e1cd4e447c1352f1b3cd2169299b6b67556eb922/data/false_positives.txt) false positive в модуле WAF libinjection.
-
-7. Написать [регулярное выражение](https://en.wikipedia.org/wiki/Regular_expression), обнаруживающее какую-либо атаку типа "инъекция" на веб-приложение, связанную с [недостаточной обработкой данных](https://cwe.mitre.org/data/definitions/20.html). Качество регулярного выражения определяется покрытием множеством векторов атаки из выбранного класса и множеством обрабатываемых запросов, не являющимися векторами атака (иначе говоря соотношением false negative и false positive).
-
-8. Develop a timing covert channel application on an arbitrary programming language exploiting one of the following mechanism:
+5. Develop a timing covert channel application on an arbitrary programming language exploiting one of the following mechanism:
     * Socket
     * Hard link
     * Soft link
