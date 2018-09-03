@@ -62,10 +62,10 @@ Readings:
 #### Provable Security
 Topics: 
 * Modeling computer insecurity
-* Semantic security
+* Semantic security and attack games
 * Exploitability and provable unexploitability
 * Language-based security
-* Science of Security
+* Science of security
 
 Readings:
 * [A Graduate Course in Applied Cryptography. Chapter 2.3. Computational ciphers and semantic security](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
