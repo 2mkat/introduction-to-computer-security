@@ -39,13 +39,13 @@
    Code snippet 2.
    ```
    private static bool IsValidSignature(string data, string signature) {
-   var bytes = Encoding.ASCII.GetBytes("eCTR4rhYQVNwn78j" + data);
-   var hash = MD5.Create().ComputeHash(bytes);
-   return BitConverter.ToString(hash) == signature;
+     var bytes = Encoding.ASCII.GetBytes("eCTR4rhYQVNwn78j" + data);
+     var hash = MD5.Create().ComputeHash(bytes);
+     return BitConverter.ToString(hash) == signature;
    }
    ...
    if (IsValidSignature(Request["data"], Request["signature"])) {
-      var decryptor = Aes.Create() { 
+     var decryptor = Aes.Create() { 
         BlockSize = 128;
         Key = Encoding.ASCII.GetBytes("YtGDn6mvAHbp5X7C");
         IV = Encoding.ASCII.GetBytes("mHMUYSjiVxo4wp9R");
