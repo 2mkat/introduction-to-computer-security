@@ -28,8 +28,7 @@ Readings:
 #### Foundational Concepts in Security
 Topics:
 * Threat, weakness, vulnerability, and attack
-* Security policy
-* Security and safety
+* Security policy, security and safety
 * Threat modelling
 * Attack and attacker modelling
 * Security mechanisms
@@ -62,13 +61,11 @@ Readings:
 #### Provable Security
 Topics: 
 * Modeling computer insecurity
-* Semantic security and attack games
 * Exploitability and provable unexploitability
 * Language-based security
 * Science of security
 
 Readings:
-* [A Graduate Course in Applied Cryptography. Chapter 2.3. Computational ciphers and semantic security](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
 * [Matt Bishop. Modeling Computer Insecurity](http://nob.cs.ucdavis.edu/bishop/notes/2008-cse-14/2008-cse-14.pdf)
 * [Thomas Dullien. Weird machines, exploitability, and provable unexploitability](http://www.dullien.net/thomas/weird-machines-exploitability.pdf)
 * [L.Sassaman, M. Patterson, S. Bratus, M. Locasto, A. Shubina. Security Applications of Formal Language Theory](http://www.langsec.org/papers/langsec-tr.pdf)
@@ -92,6 +89,35 @@ Topics:
 
 Readings:
 * [Jakub Szefer. Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses](https://eprint.iacr.org/2016/479.pdf) 
+
+### Part 2: Practical Introduction to Cryptography
+
+#### Introduction
+Topics:
+* Cryptography and computer security
+* Historic ciphers
+
+Readings:  
+* [A Graduate Course in Applied Cryptography. Introduction](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
+* [Phillip Rogaway. The Moral Character of Cryptographic Work](http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf)
+
+#### Cryptographic Security
+* Semantic security and attack games
+* Informational and computational security
+* Perfect security
+
+Readings:
+* [A Graduate Course in Applied Cryptography. Chapter 2.3. Computational ciphers and semantic security](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
+* Jean-Philippe Aumasson. Serious Cryptography. Chapter 3
+
+#### How Things Can Go Wrong
+* Attacks
+* Cryptography coding 
+
+Readings:
+* [Cryptography Coding Standard](https://cryptocoding.net/index.php/Cryptography_Coding_Standard)
+* [SoK: Lessons Learned From SSL/TLS Attacks](https://www.ei.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2013/08/19/paper.pdf)
+
 
 ## Assignments
 * [Course assignments](assignments.md)
