@@ -81,5 +81,14 @@ Source: [the cryptopals crypto challenges](https://cryptopals.com/sets/1/challen
    Alice -> Bob: E(sk, m)
    ```
 
-## Part 3: Web Application Security
+## Part 3: Network Security
+1. Find webcams on the Internet using Shodan or Censys search engines.
+2. Develop an [Nmap NSE](https://nmap.org/nsedoc/) script able to discover F5 BIG-IP load balancers via HTTP `Server: BIG-IP` header.
+
+## Part 4: Web Application Security
 1. Attack and defence. [Damn Small Vulnerable Web (DSVW)](https://github.com/stamparm/DSVW) is supposed to be used, but you can use any other vulnerable web application you want ([WackoPicko](https://github.com/adamdoupe/WackoPicko) on PHP, [Gruyere](https://google-gruyere.appspot.com/) on Python, [vulnerable-app](https://github.com/clarkio/vulnerable-app) on Node.js, etc.). Choose an attack class you are interested in. It can be `SQL injection`, `XSS`, `XXE`, or any other supported by chosen vulnerable application. First, provide a proof of concept that the application is vulnerable to this attack. Second, fix the vulnerability in the source code and ensure, that the bug has been fixed.
+
+2. Bug Hunting. Find bugs as much as you can in one of the following special web applications:
+* [Acuart](http://testphp.vulnweb.com/)
+* [Juice shop](https://juice-shop.herokuapp.com/#/search)
+* [SecurityTweets](http://testhtml5.vulnweb.com)
