@@ -118,6 +118,20 @@ Readings:
 * [Cryptography Coding Standard](https://cryptocoding.net/index.php/Cryptography_Coding_Standard)
 * [SoK: Lessons Learned From SSL/TLS Attacks](https://www.ei.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2013/08/19/paper.pdf)
 
+### Part 3: Practical Introduction to Web Security
+* Same-Origin Policy
+* Injections
+* Cross-Site Request Forgery
+
+Readings:
+* [J.Schwenk et al. Same-Origin Policy: Evaluation in Modern Browsers](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-schwenk.pdf)
+* [A.Barth, C.Jackson, J.Mitchell. Robust Defenses for Cross-Site Request Forgery](https://seclab.stanford.edu/websec/csrf/csrf.pdf)
+* [Z.Su, G.Wassermann. The Essence of Command Injection Attacks in Web Applications](http://web.cs.ucdavis.edu/~su/publications/popl06.pdf)
 
 ## Assignments
 * [Course assignments](assignments.md)
+
+## Cources
+* [University of Maryland. Computer & Network Security](http://www.cs.umd.edu/class/spring2017/cmsc818O/index.html)
+* [University of California, San Diego. CSE 227: Computer Security](http://cseweb.ucsd.edu/classes/fa17/cse227-a/index.html)
+* [NYU Paris. Introduction to Computer Security](https://sites.google.com/nyu.edu/paris-csci-ua9480/home)
