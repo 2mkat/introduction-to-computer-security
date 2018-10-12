@@ -1,8 +1,8 @@
 # Assignments
 
 ## Part 1: Basics
-1. Develop an attack tree describing ways to realize a chosen computer security threat.
-2. Develop a DFD describing a trivial web application. "Microsoft Threat Modeling Tool" should be used.
+1. Develop an attack tree describing ways to realize a chosen computer security threat. You may use [draw.io](https://michenriksen.com/blog/drawio-for-threat-modeling/).
+2. Develop a DFD describing a trivial web application. You may use [draw.io](https://michenriksen.com/blog/drawio-for-threat-modeling/) .
 3. Calculate scores for 3 popular and known vulnerabilities within [DREAD](https://msdn.microsoft.com/en-us/library/aa302419.aspx) and [CVSSv3](https://www.first.org/cvss/calculator/3.0) models.
 4. Analyze the code snippets below and find weaknesses and vulnerabilities.
    
