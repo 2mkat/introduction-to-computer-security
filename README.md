@@ -128,6 +128,14 @@ Readings:
 * [A.Barth, C.Jackson, J.Mitchell. Robust Defenses for Cross-Site Request Forgery](https://seclab.stanford.edu/websec/csrf/csrf.pdf)
 * [Z.Su, G.Wassermann. The Essence of Command Injection Attacks in Web Applications](http://web.cs.ucdavis.edu/~su/publications/popl06.pdf)
 
+## References
+### Threat Models
+* [GENIVI Threat Model](https://at.projects.genivi.org/wiki/display/SEC/Threat+Model)
+* [NIST Mobile Threat Catalogue](https://pages.nist.gov/mobile-threat-catalogue/)
+* [Vault Threat Model](https://www.vaultproject.io/docs/internals/security.html)
+* [SPIFFE Threat Model](https://docs.google.com/spreadsheets/d/1M2AgqBQTlZSfCL7La2Kz8KhD1M17rbV_OJZN_POQVGg/edit?usp=sharing)
+* [OWASP Threat Model for Secure Password Storage](https://www.owasp.org/images/1/12/Secure_Password_Storage.pdf)
+
 ## Assignments
 * [Course assignments](assignments.md)
 
