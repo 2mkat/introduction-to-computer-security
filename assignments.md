@@ -59,6 +59,7 @@
     * File system attributes
     * proc file system
     * Network protocol field
+6. Solve all challenges in [Cryptopals Set 1](https://cryptopals.com/sets/1).
 
 ## Part 2: Introduction to Cryptography
 1. AES in ECB mode. The Base64-encoded content in [this](https://github.com/tsu-iscd/introduction-to-computer-security/blob/master/data/1.txt) file has been encrypted via AES-128 in ECB mode under the key `YELLOW SUBMARINE`.
