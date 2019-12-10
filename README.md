@@ -7,9 +7,7 @@ The course is lectured in [Tomsk State University](http://en.tsu.ru).
 
 ## Syllabus and Readings
 
-### Part 1: Basics
-
-#### Introduction
+### Introduction
 Topics:
 * Information security, computer security, and cyber security
 * Ethics in security research
@@ -18,14 +16,16 @@ Topics:
 * Cryptography and computer security
 * Who are the hackers?
 
-Readings:  
+Podcasts:
 * [Noise Security Bit. Об образовании в области ИБ](http://noisebit.podster.fm/6)
 * [Noise Security Bit. О практической безопасности](http://noisebit.podster.fm/3)
+
+Readings:  
 * [Matt Bishop. Introduction to Computer Security. Chapter 1](http://nob.cs.ucdavis.edu/book/book-intro/)
 * [Ken Thompson. Reflections on Trusting Trust](https://crypto.stanford.edu/cs155/papers/thompson.pdf)
 * [Phillip Rogaway. The Moral Character of Cryptographic Work](http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf)
 
-#### Foundational Concepts in Security
+### Foundational Concepts in Security
 Topics:
 * Threat, weakness, vulnerability, and attack
 * Security policy, security and safety
@@ -34,15 +34,19 @@ Topics:
 * Security mechanisms
 * Risk-oriented approach to computer security
 
-Readings:
+Video:
 * [Sergey Gordeichik. Threat Hunting](https://www.youtube.com/watch?v=i2K0NKV_zho)
+
+Examples:
 * [Threat Model for Secure Password Storage](http://goo.gl/Spvzs)
+
+Readings:
 * [DFD](https://www.owasp.org/index.php/Application_Threat_Modeling) and [Attack Trees](https://en.wikipedia.org/wiki/Attack_tree)
 * [STRIDE](http://msdn.microsoft.com/en-us/library/ee823899(v=cs.20).aspx) and [DREAD](http://msdn.microsoft.com/en-us/library/ff648644.aspx)
 * [CVSS](https://www.first.org/cvss/calculator/3.0) and [vulnerabilities within CVSS](https://www.first.org/cvss/examples)
 * [Robert Graham. Top 10 Most Obvious Hacks of All Time](https://blog.erratasec.com/2017/07/top-10-most-obvious-hacks-of-all-time.html)
 
-#### Security Principles
+### Security Principles
 Topics:
 * Kerckhoffs's principle
 * Saltzer and Schroeder's design principles
@@ -58,7 +62,7 @@ Readings:
 * [Devdatta Akhawe, Adrienne Porter Felt. Alice in Warningland: A Large-Scale Field Study of Browser Security Warning Effectiveness](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41323.pdf)
 * [Andy Ozment, Stuart E. Schechter. Milk or Wine: Does Software Security Improve with Age?](http://static.usenix.org/event/sec06/tech/full_papers/ozment/ozment.pdf)
 
-#### Provable Security
+### Provable Security and Insecurity
 Topics: 
 * Modeling computer insecurity
 * Exploitability and provable unexploitability
@@ -66,12 +70,13 @@ Topics:
 * Science of security
 
 Readings:
+* [C.Herley, P.C. van Oorschot. SoK: Science, Security, and the Elusive Goal of Security as a Scientific Pursuit](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/03/scienceAndSecuritySoK.pdf)
 * [Matt Bishop. Modeling Computer Insecurity](http://nob.cs.ucdavis.edu/bishop/notes/2008-cse-14/2008-cse-14.pdf)
 * [Thomas Dullien. Weird machines, exploitability, and provable unexploitability](http://www.dullien.net/thomas/weird-machines-exploitability.pdf)
 * [L.Sassaman, M. Patterson, S. Bratus, M. Locasto, A. Shubina. Security Applications of Formal Language Theory](http://www.langsec.org/papers/langsec-tr.pdf)
 * [Cormac Herley, P.C. van Oorschot. SoK: Science, Security, and the Elusive Goal of Security as a Scientific Pursuit](https://www.ieee-security.org/TC/SP2017/papers/165.pdf)
 
-#### Access Control
+### Access Control
 Topics:
 * Access control policy
 * DAC, MAC, RBAC, and ABAC
@@ -82,43 +87,31 @@ Readings:
 * [Take-Grant Model](http://www.cs.nmt.edu/~doshin/t/s06/cs589/pub/2.JLS-TG.pdf)
 * [David Bell. Looking Back at the Bell-La Padula Model](https://www.acsac.org/2005/papers/Bell.pdf) 
  
-#### Covert channels and side channels attacks
+### Covert channels and side channels attacks
 Topics:
 * Covert channels
 * Side channels
 
 Readings:
+* [A Pattern-based Survey and Categorization of Network Covert Channel Techniques](https://arxiv.org/abs/1406.2901)
 * [Jakub Szefer. Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses](https://eprint.iacr.org/2016/479.pdf) 
 
-### Part 2: Practical Introduction to Cryptography
-
-#### Introduction
+### Cryptographic Security
 Topics:
 * Cryptography and computer security
-* Historic ciphers
-
-Readings:  
-* [A Graduate Course in Applied Cryptography. Introduction](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
-* [Phillip Rogaway. The Moral Character of Cryptographic Work](http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf)
-
-#### Cryptographic Security
-* Semantic security and attack games
+* Perfect secrecy
+* Semantic security
 * Informational and computational security
-* Perfect security
 
 Readings:
 * [A Graduate Course in Applied Cryptography. Chapter 2.3. Computational ciphers and semantic security](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
 * Jean-Philippe Aumasson. Serious Cryptography. Chapter 3
-
-#### How Things Can Go Wrong
-* Attacks
-* Cryptography coding 
-
-Readings:
-* [Cryptography Coding Standard](https://cryptocoding.net/index.php/Cryptography_Coding_Standard)
+* [Neal Koblitz, Alfred J. Menezes. Another Look at “Provable Security”](https://eprint.iacr.org/2004/152.pdf)
+* [Imperfect Forward Secrecy](https://weakdh.org/imperfect-forward-secrecy.pdf)
 * [SoK: Lessons Learned From SSL/TLS Attacks](https://www.ei.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2013/08/19/paper.pdf)
 
-### Part 3: Practical Introduction to Web Security
+### Web Security
+Topics:
 * Same-Origin Policy
 * Injections
 * Cross-Site Request Forgery
@@ -129,6 +122,7 @@ Readings:
 * [Z.Su, G.Wassermann. The Essence of Command Injection Attacks in Web Applications](http://web.cs.ucdavis.edu/~su/publications/popl06.pdf)
 
 ## References
+
 ### Threat Models
 * [GENIVI Threat Model](https://at.projects.genivi.org/wiki/display/SEC/Threat+Model)
 * [NIST Mobile Threat Catalogue](https://pages.nist.gov/mobile-threat-catalogue/)
