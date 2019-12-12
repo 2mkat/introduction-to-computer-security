@@ -20,6 +20,9 @@ Podcasts:
 * [Noise Security Bit. Об образовании в области ИБ](http://noisebit.podster.fm/6)
 * [Noise Security Bit. О практической безопасности](http://noisebit.podster.fm/3)
 
+Video:
+* [Thomas Dullien. Security, Moore's law and the anomaly of chip complexity](https://www.err.ee/836236/video-google-0-projekti-tarkvarainseneri-ettekanne-cyconil)
+
 Readings:  
 * [Matt Bishop. Introduction to Computer Security. Chapter 1](http://nob.cs.ucdavis.edu/book/book-intro/)
 * [Ken Thompson. Reflections on Trusting Trust](https://crypto.stanford.edu/cs155/papers/thompson.pdf)
