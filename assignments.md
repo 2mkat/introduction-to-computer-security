@@ -4,7 +4,7 @@
 1. Develop an attack tree describing ways to realize a chosen computer security threat. You may use [draw.io](https://michenriksen.com/blog/drawio-for-threat-modeling/).
 2. Develop a DFD describing a trivial web application. You may use [draw.io](https://michenriksen.com/blog/drawio-for-threat-modeling/) .
 3. Calculate scores for 3 popular and known vulnerabilities within [DREAD](https://msdn.microsoft.com/en-us/library/aa302419.aspx) and [CVSSv3](https://www.first.org/cvss/calculator/3.0) models.
-4. Analyze the code snippets below and find weaknesses and vulnerabilities.
+4. Analyze the code snippets below, find and derive threats, weaknesses, vulnerabilities and attacks.
    
    Code snippet 1.
    ```
@@ -58,38 +58,18 @@
     * Soft link
     * File system attributes
     * proc file system
-    * Network protocol field
+    * Network protocol fields
 6. Solve all challenges in [Cryptopals Set 1](https://cryptopals.com/sets/1).
 
-## Part 2: Introduction to Cryptography
-1. AES in ECB mode. The Base64-encoded content in [this](https://github.com/tsu-iscd/introduction-to-computer-security/blob/master/data/1.txt) file has been encrypted via AES-128 in ECB mode under the key `YELLOW SUBMARINE`.
-Decrypt it with code. You know the key, after all. Easiest way: use OpenSSL::Cipher and give it AES-128-ECB as the cipher.
-Source: [the cryptopals crypto challenges](https://cryptopals.com/sets/1/challenges/7).
-
-2. Implement a string comparisons algorithm on your own and then implement secure one comparing strings in constant time.
+7. Implement a string comparisons algorithm on your own and then implement secure one comparing strings in constant time.
 To understand why it is necessary and where it is used see this [link](https://cryptocoding.net/index.php/Coding_rules#Compare_secret_strings_in_constant_time).
 
-3. Implement fixed XOR on Rust. Write a function that takes two equal-length buffers and produces their XOR combination.
-If your function works properly, then when you feed it the string `1c0111001f010100061a024b53535009181c` after hex decoding, and when XOR'd against `686974207468652062756c6c277320657965` should produce `746865206b696420646f6e277420706c6179`.
-Source: [the cryptopals crypto challenges](https://cryptopals.com/sets/1/challenges/2).
-
-4. Alice and Bob have a shared long-term symmetric key `k`. Alice wants to send a message `m` to Bob using one-time established key `sk`.  Find vulnerabilities in the following key transport protocol: 
-
-   ```
-   Alice -> Bob: r
-   Bob -> Alice: E(k, sk, r)
-   ...
-   Alice -> Bob: E(sk, m)
-   ```
-
-## Part 3: Network Security
-1. Find webcams on the Internet using Shodan or Censys search engines.
-2. Develop an [Nmap NSE](https://nmap.org/nsedoc/) script able to discover F5 BIG-IP load balancers via HTTP `Server: BIG-IP` header.
-
-## Part 4: Web Application Security
-1. Attack and defence. [Damn Small Vulnerable Web (DSVW)](https://github.com/stamparm/DSVW) is supposed to be used, but you can use any other vulnerable web application you want ([WackoPicko](https://github.com/adamdoupe/WackoPicko) on PHP, [Gruyere](https://google-gruyere.appspot.com/) on Python, [vulnerable-app](https://github.com/clarkio/vulnerable-app) on Node.js, etc.). Choose an attack class you are interested in. It can be `SQL injection`, `XSS`, `XXE`, or any other supported by chosen vulnerable application. First, provide a proof of concept that the application is vulnerable to this attack. Second, fix the vulnerability in the source code and ensure, that the bug has been fixed.
-
-2. Bug Hunting. Find bugs as much as you can in one of the following special web applications:
-* [Acuart](http://testphp.vulnweb.com/)
-* [Juice shop](https://juice-shop.herokuapp.com/#/search)
-* [SecurityTweets](http://testhtml5.vulnweb.com)
+8. Prepare an executive summary for a scientific paper related to computer security in a broad sense.
+   Some questions you have to answer are as follows:
+   - What problem is this paper tackling?
+   - How security is defined? What an adversary is assumed?  
+   - What is the potential impact of the results?
+   - What advances over the previous state of knowledge are made?
+   - What are the main results; what do the security bounds “say”?
+   - Do the hardness assumptions that are used to support proofs seem reasonable?
+   - What open problems are surfaced by the authors, for future work?
