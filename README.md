@@ -24,9 +24,9 @@ Video:
 * [Thomas Dullien. Security, Moore's law and the anomaly of chip complexity](https://www.err.ee/836236/video-google-0-projekti-tarkvarainseneri-ettekanne-cyconil)
 
 Readings:  
-* [Matt Bishop. Introduction to Computer Security. Chapter 1](http://nob.cs.ucdavis.edu/book/book-intro/)
-* [Ken Thompson. Reflections on Trusting Trust](https://crypto.stanford.edu/cs155/papers/thompson.pdf)
-* [Phillip Rogaway. The Moral Character of Cryptographic Work](http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf)
+* [Matt Bishop. Introduction to Computer Security (Chapter 1)](http://nob.cs.ucdavis.edu/book/book-intro/)
+* [Ken Thompson. Reflections on Trusting Trust](https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf)
+* [Phillip Rogaway. The Moral Character of Cryptographic Work (Preamble)](http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf)
 
 ### Foundational Concepts in Security
 Topics:
@@ -37,11 +37,12 @@ Topics:
 * Security mechanisms
 * Risk-oriented approach to computer security
 
-Video:
-* [Sergey Gordeichik. Threat Hunting](https://www.youtube.com/watch?v=i2K0NKV_zho)
-
-Examples:
-* [Threat Model for Secure Password Storage](http://goo.gl/Spvzs)
+Threat models:
+* [GENIVI Threat Model](https://at.projects.genivi.org/wiki/display/SEC/Threat+Model)
+* [NIST Mobile Threat Catalogue](https://pages.nist.gov/mobile-threat-catalogue/)
+* [Vault Threat Model](https://www.vaultproject.io/docs/internals/security.html)
+* [SPIFFE Threat Model](https://docs.google.com/spreadsheets/d/1M2AgqBQTlZSfCL7La2Kz8KhD1M17rbV_OJZN_POQVGg/edit?usp=sharing)
+* [OWASP Threat Model for Secure Password Storage](https://www.owasp.org/images/1/12/Secure_Password_Storage.pdf)
 
 Readings:
 * [DFD](https://www.owasp.org/index.php/Application_Threat_Modeling) and [Attack Trees](https://en.wikipedia.org/wiki/Attack_tree)
@@ -60,17 +61,14 @@ Topics:
 
 Readings:
 * [The Protection of Information in Computer Systems. Saltser's and Schroeder's security principles](http://www.cs.virginia.edu/~evans/cs551/saltzer/)
-* [Defence in Depth](https://www.sans.org/reading-room/whitepapers/basics/defense-in-depth-525)
 * [Security by Obscurity](https://danielmiessler.com/study/security-by-obscurity/)
-* [Devdatta Akhawe, Adrienne Porter Felt. Alice in Warningland: A Large-Scale Field Study of Browser Security Warning Effectiveness](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41323.pdf)
-* [Andy Ozment, Stuart E. Schechter. Milk or Wine: Does Software Security Improve with Age?](http://static.usenix.org/event/sec06/tech/full_papers/ozment/ozment.pdf)
 
 ### Provable Security and Insecurity
 Topics: 
 * Modeling computer insecurity
 * Exploitability and provable unexploitability
 * Language-based security
-* Science of security
+* Provable security
 
 Readings:
 * [C.Herley, P.C. van Oorschot. SoK: Science, Security, and the Elusive Goal of Security as a Scientific Pursuit](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/03/scienceAndSecuritySoK.pdf)
@@ -79,11 +77,11 @@ Readings:
 * [L.Sassaman, M. Patterson, S. Bratus, M. Locasto, A. Shubina. Security Applications of Formal Language Theory](http://www.langsec.org/papers/langsec-tr.pdf)
 * [Cormac Herley, P.C. van Oorschot. SoK: Science, Security, and the Elusive Goal of Security as a Scientific Pursuit](https://www.ieee-security.org/TC/SP2017/papers/165.pdf)
 
-### Access Control
+### Mathematical Computer Security
 Topics:
-* Access control policy
-* DAC, MAC, RBAC, and ABAC
-* Access control models overview
+* HRU Model
+* Bell-LaPadula model
+* Take-Grant model
 
 Readings:
 * [HRU Model](http://dl.acm.org/citation.cfm?doid=360303.360333)
@@ -104,6 +102,8 @@ Topics:
 * Cryptography and computer security
 * Perfect secrecy
 * Semantic security
+* Forward secrecy
+* Post-compromise security
 * Informational and computational security
 
 Readings:
@@ -113,30 +113,6 @@ Readings:
 * [Imperfect Forward Secrecy](https://weakdh.org/imperfect-forward-secrecy.pdf)
 * [SoK: Lessons Learned From SSL/TLS Attacks](https://www.ei.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2013/08/19/paper.pdf)
 
-### Web Security
-Topics:
-* Same-Origin Policy
-* Injections
-* Cross-Site Request Forgery
-
-Readings:
-* [J.Schwenk et al. Same-Origin Policy: Evaluation in Modern Browsers](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-schwenk.pdf)
-* [A.Barth, C.Jackson, J.Mitchell. Robust Defenses for Cross-Site Request Forgery](https://seclab.stanford.edu/websec/csrf/csrf.pdf)
-* [Z.Su, G.Wassermann. The Essence of Command Injection Attacks in Web Applications](http://web.cs.ucdavis.edu/~su/publications/popl06.pdf)
-
-## References
-
-### Threat Models
-* [GENIVI Threat Model](https://at.projects.genivi.org/wiki/display/SEC/Threat+Model)
-* [NIST Mobile Threat Catalogue](https://pages.nist.gov/mobile-threat-catalogue/)
-* [Vault Threat Model](https://www.vaultproject.io/docs/internals/security.html)
-* [SPIFFE Threat Model](https://docs.google.com/spreadsheets/d/1M2AgqBQTlZSfCL7La2Kz8KhD1M17rbV_OJZN_POQVGg/edit?usp=sharing)
-* [OWASP Threat Model for Secure Password Storage](https://www.owasp.org/images/1/12/Secure_Password_Storage.pdf)
-
 ## Assignments
 * [Course assignments](assignments.md)
 
-## Cources
-* [University of Maryland. Computer & Network Security](http://www.cs.umd.edu/class/spring2017/cmsc818O/index.html)
-* [University of California, San Diego. CSE 227: Computer Security](http://cseweb.ucsd.edu/classes/fa17/cse227-a/index.html)
-* [NYU Paris. Introduction to Computer Security](https://sites.google.com/nyu.edu/paris-csci-ua9480/home)
