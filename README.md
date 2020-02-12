@@ -120,6 +120,7 @@ Readings:
 Attacks on Authenticity and Confidentiality](https://eprint.iacr.org/2019/311.pdf)
 * [On the NSA](https://blog.cryptographyengineering.com/2013/09/06/on-nsa/)
 * [Surreptitiously Weakening Cryptographic Systems](https://eprint.iacr.org/2015/097.pdf)
+* [By-design Backdooring of Encryption System. Can We Trust Foreign Encryption Algorithms?](https://www.blackhat.com/docs/eu-17/materials/eu-17-Filiol-By-Design-Backdooring-Of-Encryption-System-Can-We-Trust-Foreign-Encryption-Algorithms.pdf)
 
 ## Assignments
 * [Course assignments](assignments.md)
