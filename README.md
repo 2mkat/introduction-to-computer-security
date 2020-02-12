@@ -119,6 +119,7 @@ Readings:
 * [Cryptanalysis of OCB2:
 Attacks on Authenticity and Confidentiality](https://eprint.iacr.org/2019/311.pdf)
 * [On the NSA](https://blog.cryptographyengineering.com/2013/09/06/on-nsa/)
+* [Surreptitiously Weakening Cryptographic Systems](https://eprint.iacr.org/2015/097.pdf)
 
 ## Assignments
 * [Course assignments](assignments.md)
