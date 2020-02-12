@@ -110,8 +110,15 @@ Readings:
 * [A Graduate Course in Applied Cryptography. Chapter 2.3. Computational ciphers and semantic security](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
 * Jean-Philippe Aumasson. Serious Cryptography. Chapter 3
 * [Neal Koblitz, Alfred J. Menezes. Another Look at “Provable Security”](https://eprint.iacr.org/2004/152.pdf)
-* [Imperfect Forward Secrecy](https://weakdh.org/imperfect-forward-secrecy.pdf)
 * [SoK: Lessons Learned From SSL/TLS Attacks](https://www.ei.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2013/08/19/paper.pdf)
+
+## Making Sense of Real Security
+* [Imperfect Forward Secrecy](https://weakdh.org/imperfect-forward-secrecy.pdf)
+* [The intelligence coup of the century](https://www.washingtonpost.com/graphics/2020/world/national-security/cia-crypto-encryption-machines-espionage/)
+* [Looking back at the Snowden revelations](https://blog.cryptographyengineering.com/2019/09/24/looking-back-at-the-snowden-revelations/)
+* [Cryptanalysis of OCB2:
+Attacks on Authenticity and Confidentiality](https://eprint.iacr.org/2019/311.pdf)
+* [On the NSA](https://blog.cryptographyengineering.com/2013/09/06/on-nsa/)
 
 ## Assignments
 * [Course assignments](assignments.md)
