@@ -14,7 +14,7 @@ Solve all challenges in [Cryptopals Set 1](https://cryptopals.com/sets/1) in Go.
 
 ## Constant-time String Comparison
 Implement a string comparison algorithm on your own and then implement secure one comparing strings in constant time.
-To understand why it is necessary and where it is used see this [link](https://cryptocoding.net/index.php/Coding_rules#Compare_secret_strings_in_constant_time).
+To understand why it is necessary and where it is used see this [link](https://github.com/veorq/cryptocoding#compare-secret-strings-in-constant-time).
 
 ## Hash Function
 This task is proposed and used in [the Blockchain class](https://github.com/matthewdgreen/blockchains/wiki/Assignment-1) by Matthew Green.
