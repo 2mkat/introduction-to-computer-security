@@ -7,7 +7,7 @@ Build an attack tree describing ways to realize a chosen computer security threa
 Calculate scores for 3 popular and known vulnerabilities within [DREAD](https://msdn.microsoft.com/en-us/library/aa302419.aspx) and [CVSSv3](https://www.first.org/cvss/calculator/3.0) models.
 
 ## Covert Channel
-Develop a covert channel in a web application in Go. Some ideas and inspiration you can find [here](https://github.com/cdpxe/Network-Covert-Channels-A-University-level-Course).
+Implement a covert channel in an operating system (Python, Go) or in a web application in Go. Some ideas and inspiration you can find [here](https://github.com/cdpxe/Network-Covert-Channels-A-University-level-Course).
 
 ## Cryptopals
 Solve all challenges in [Cryptopals Set 1](https://cryptopals.com/sets/1) in Go.
